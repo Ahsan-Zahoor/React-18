@@ -1,9 +1,13 @@
 import Trasnsition from "./Components/useTransition";
+import Suspensee from "./Components/useSuspense";
 
 function App() {
   return (
     <>
-      <Trasnsition />
+      <div>
+        <Trasnsition />
+      </div>
+      <Suspensee />
     </>
   );
 }
